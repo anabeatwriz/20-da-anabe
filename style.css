@@ -1,0 +1,94 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, Arial, sans-serif;
+    background-color: #000E1B;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: #0B2F4F;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message {
+    background-color: #0B2F4F;
+    padding: 40px;
+    border-radius: 0 0 20px 20px;
+    margin-top: 20px;
+}
+
+.message-container {
+    background-color: #0B2F4F;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.message-container p {
+    font-size: 1.0em;
+    line-height: 2.0;
+    margin-bottom: 26px;
+}
+
+.quote {
+    color: #FFFFFF;
+    background-color: #D11109;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.signature-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.signature {
+    font-family: 'Tangerine', cursive;
+    font-size: 3.5em;
+    margin-left: 20px;
+    direction: rtl;
+}
+
+.date {
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+    margin-left: 20px;
+    direction: rtl;
+}
+
+.footer {
+    background-color: #0B2F4F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 0 0 20px 20px;
+}
