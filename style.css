@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 10px;
-    flex-shrink: 0;
+    flex-shrink: 5;
 }
 
 .header {
@@ -29,15 +29,11 @@ body {
     padding: 50px 20px;
     text-align: center;
     border-radius: 20px 20px 0 0;
-    flex-shrink: 0;
-    overflow: hidden;
 }
 
 .header h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    flex-shrink: 0;
-    overflow: hidden;
 }
 
 .header p {
