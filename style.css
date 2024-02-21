@@ -1,8 +1,11 @@
-/* Reset CSS */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
+    webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: grayscale;
+    webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -25,12 +28,15 @@ body {
     padding: 50px 20px;
     text-align: center;
     border-radius: 20px 20px 0 0;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .header h1 {
     font-size: 3em;
     margin-bottom: 20px;
     flex-shrink: 0;
+    overflow: hidden;
 }
 
 .header p {
@@ -38,6 +44,8 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
     border-radius: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .message {
