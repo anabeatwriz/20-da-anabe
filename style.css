@@ -21,6 +21,8 @@ body {
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 .header {
