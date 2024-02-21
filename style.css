@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     margin-bottom: 10px;
-    flex-shrink: 5;
+    flex-shrink: 10;
 }
 
 .header {
